@@ -1,0 +1,120 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .button {
+    background-color:white;
+    border-radius:3px;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family:'Alata';
+    font-size:17px;
+    margin-right: 3.5rem;
+    text-decoration:none;
+    height: 2.5rem;
+    width: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    transition: 800ms;
+  }
+  .button:hover {
+    background-color:black;
+    color: white;
+  }
+  .button:active {
+    position:relative;
+    top:1px;
+  }
+  
+ .view-more{
+  display: flex;
+  margin-top: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ }
+
+ .view-more h3{
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: 'Alata';
+  font-weight: 100;
+  letter-spacing: 0.4rem;
+  margin-left: 2.5rem;
+ }
+
+  .grid-item-1,
+  .grid-item-2,
+  .grid-item-3,
+  .grid-item-4,
+  .grid-item-5,
+  .grid-item-6,
+  .grid-item-7,
+  .grid-item-8 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3rem;
+    font-size: 30px;
+    text-align: center;
+    width: 10rem;
+    height: 18rem;
+    position: relative;
+    transition: 400ms;
+    border-radius: 2%;
+  }
+
+  .grid-item-1:hover,
+  .grid-item-2:hover,
+  .grid-item-3:hover,
+  .grid-item-4:hover,
+  .grid-item-5:hover,
+  .grid-item-6:hover,
+  .grid-item-7:hover,
+  .grid-item-8:hover{
+    cursor: pointer;
+    filter: grayscale(50%);
+  }
+  .grid-item-1 p,
+  .grid-item-2 p,
+  .grid-item-3 p ,
+  .grid-item-4 p,
+  .grid-item-5 p,
+  .grid-item-6 p,
+  .grid-item-7 p,
+  .grid-item-8 p {
+    color: white;
+    position: absolute;
+    width: 10rem;
+    bottom: 0;
+    left: 2rem;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+  .grid-item-1{
+    background-image:url('../../assets/desktop/image-deep-earth.jpg') ;
+  }
+  .grid-item-2{
+    background-image:url('../../assets/desktop/image-night-arcade.jpg') ;
+  }
+  .grid-item-3{
+    background-image:url('../../assets/desktop/image-soccer-team.jpg') ;
+  }
+  .grid-item-4{
+    background-image:url('../../assets/desktop/image-grid.jpg') ;
+  }
+  .grid-item-5{
+    background-image:url('../../assets/desktop/image-from-above.jpg') ;
+  }
+  .grid-item-6{
+    background-image:url('../../assets/desktop/image-pocket-borealis.jpg') ;
+  }
+  .grid-item-7{
+    background-image:url('../../assets/desktop/image-curiosity.jpg') ;
+  }
+  .grid-item-8{
+    background-image:url('../../assets/desktop/image-fisheye.jpg') ;
+  }

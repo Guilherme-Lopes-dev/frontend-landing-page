@@ -1,0 +1,30 @@
+.article {
+  position: relative;
+  font-family: "Alata";
+
+}
+.panel {
+  height:26rem;
+  width: 35rem;
+  margin: 5rem;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 35%;
+  left: 44%;
+  text-align: left;
+  border-radius:1%;
+}
+img {
+  margin: 10rem 0 0 -18rem;
+}
+.panel h3{
+    font-weight: 10;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin:5rem;
+}
+.panel p{
+    margin:5rem;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 55%);
+}

@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Footer from './home/Footer';
+import Section from './home/Section';
+import Header from './home/Header';
+import useSidebar from './util/useSidebar';
+import Sidebar from './home/components/Sidebar'
 function App() {
+
+  const {toggleSidebar, sidebar} = useSidebar();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {!sidebar ? 
+     <Sidebar /> :
+      <>
+      <Header/>
+      <Section/>
+      <Footer/>
+      </>}
+      
     </div>
   );
 }
 
 export default App;
+
+
+// é pra ter um <Header></Header> com <Navbar></Navbar>
+//<section></section> com 2 <article></article>
+//<footer></footer>
