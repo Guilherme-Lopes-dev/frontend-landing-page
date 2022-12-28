@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 2rem;
-    margin-top: 2rem;
   }
   .button {
     background-color:white;
@@ -32,7 +31,6 @@
   
  .view-more{
   display: flex;
-  margin-top: 8rem;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -117,4 +115,25 @@
   }
   .grid-item-8{
     background-image:url('../../assets/desktop/image-fisheye.jpg') ;
+  }
+
+  @media (max-width:960px) {
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto   auto;
+    gap: 2rem;
+  }
+
+  .view-more h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Alata';
+    font-weight: 100;
+    letter-spacing: 0.4rem;
+   }
+  
+    
+   .view-more {
+   margin-top: 3rem;
+   }
   }

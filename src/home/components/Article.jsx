@@ -5,7 +5,8 @@ import '../components/Article.css'
 const Article = () => {
     return (
         <div className='article'>
-          <img src={Interactive} alt="" />
+                <img src={Interactive} alt="" />
+            
             <div className="panel">
                 <h3>The leader in interactive VR</h3>
                 <p>
@@ -14,7 +15,7 @@ const Article = () => {
                     creations have transformed businesses through digital experiences that bind
                     to their brand.
                 </p>
-            </div>*/
+            </div>
         </div>
     )
 }
