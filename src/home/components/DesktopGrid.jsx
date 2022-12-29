@@ -2,7 +2,7 @@ import React from 'react'
 import '../components/DesktopGrid.css'
 const DesktopGrid = () => {
   return (
-    <>
+    <div className='desktop-grid'>
       <div className='view-more'>
         <h3>Our Creations</h3>
         <button className='button'>See All</button>
@@ -17,7 +17,7 @@ const DesktopGrid = () => {
         <div className="grid-item-7"><p>The curiosity</p></div>
         <div className="grid-item-8"><p>Make it fisheye</p></div>
       </div>
-    </>
+    </div>
   )
 }
 
