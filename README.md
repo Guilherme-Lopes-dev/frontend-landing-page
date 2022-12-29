@@ -8,7 +8,7 @@
 
 
 
-## The challenge
+## Desafio proposto
 
 Criar um design responsivo com base nas imagens proporcionadas
 Meu foco neste projeto foi melhorar o entendimento sobre custom hooks
